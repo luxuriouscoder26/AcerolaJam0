@@ -11,6 +11,7 @@ public class CameraMove : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             MoveCameraToNextPosition();
+            Debug.Log("Player Detected");
         }
     }
 
